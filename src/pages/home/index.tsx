@@ -89,7 +89,7 @@ function Home() {
                     type="text"
                     value={input}
                     onChange={e => setInput(e.target.value)}
-                    placeholder="Digite o símbolo da moeda: BTC..."
+                    placeholder="Digite o nome da moeda: Bitcoin..."
                  />
                  <button><BiSearch size={30} color="#fff"/></button>
             </form>
@@ -107,7 +107,7 @@ function Home() {
                 </tbody>
             </table>
         </main>
-     );
+    );
 }
 
 export default Home;
